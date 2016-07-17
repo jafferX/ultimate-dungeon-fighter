@@ -1,0 +1,39 @@
+Welcome to Ultimate Dungeon Fighter! The text based game!
+
+[General Rules]
+-A map is displayed, with the current room that you are in.
+-You enter which room you want to go into next.
+-You may only move up and down, left and right.
+-The boss is located in room 9.
+-If you have not visited a room yet, you will encounter a monster.
+-Upon defeating the monster, you will get an increase in stats (health, attack, and defense).
+-If you have already visited a room, then nothing happens, and you proceed.
+
+[During battles]
+-Battles will be a turn based fight.
+-When it is your turn, you will have three choices:
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+
+-You will type in the number with the corresponding move.
+-If an input is entered incorrectly, the your turn is skipped.
+-You may only activate the special attack after two turns.
+-The longer you hold off on activating the special attack, the stronger it is.
+-If you did not wait two turns, your turn will be skipped entirely.
+-Do note that your special attack recharges every two turns, and resets each time you face a new monster.
+NOTE: Monsters do not have a special attack, however, the boss does, so be careful!
+NOTE: It is possible to do negative damage on the monster (heal the monster), should their defense be greater than your attack.
+
+[Game Over]
+The game ends in one of two ways:
+
+1. Health drops to zero in a fight
+2. You reach the boss room, and you beat it.
+
+NOTE: It is recommended to go through all the rooms until you reach the boss room!
+However, if you want a challenge, then you may proceed to the boss room as fast as possible.
+
+Good luck!

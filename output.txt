@@ -1,0 +1,388 @@
+Welcome to Ultimate Dungeon Fighter! The text based game!
+
+[General Rules]
+-A map is displayed, with the current room that you are in.
+-You enter which room you want to go into next.
+-You may only move up and down, left and right.
+-The boss is located in room 9.
+-If you have not visited a room yet, you will encounter a monster.
+-Upon defeating the monster, you will get an increase in stats (health, attack, and defense).
+-If you have already visited a room, then nothing happens, and you proceed.
+
+[During battles]
+-Battles will be a turn based fight.
+-When it is your turn, you will have three choices:
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+
+-You will type in the number with the corresponding move.
+-If an input is entered incorrectly, the your turn is skipped.
+-You may only activate the special attack after two turns.
+-The longer you hold off on activating the special attack, the stronger it is.
+-If you did not wait two turns, your turn will be skipped entirely.
+-Do note that your special attack recharges every two turns, and resets each time you face a new monster.
+NOTE: Monsters do not have a special attack, however, the boss does, so be careful!
+NOTE: It is possible to do negative damage on the monster (heal the monster), should their defense be greater than your attack.
+
+[Game Over]
+The game ends in one of two ways:
+
+1. Health drops to zero in a fight
+2. You reach the boss room, and you beat it.
+
+NOTE: It is recommended to go through all the rooms until you reach the boss room!
+However, if you want a challenge, then you may proceed to the boss room as fast as possible.
+
+Good luck!
+ _ _ _ _ _ _
+|_1_|_2_|_3_|
+|_4_|_5_|_6_|
+|_7_|_8_|_9_|
+Current room: 1
+Please enter a valid room number (1 - 9): 2
+
+Warning: Monster!
+
+HEALTH: 300 MONSTER HEALTH: 100
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 10 damage!
+Monster does 10 damage!
+
+HEALTH: 290 MONSTER HEALTH: 90
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 10 damage!
+Monster does 10 damage!
+
+HEALTH: 280 MONSTER HEALTH: 80
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 3
+
+OMEGA SLASH!
+You do 35 damage!
+The monster's defense doubles!
+
+HEALTH: 280 MONSTER HEALTH: 45
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 5
+
+Incorrect input. Turn is skipped.
+The monster's defense doubles!
+
+HEALTH: 280 MONSTER HEALTH: 45
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 3
+
+OMEGA SLASH!
+You do 20 damage!
+Monster does 10 damage!
+
+HEALTH: 270 MONSTER HEALTH: 25
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 3
+
+Cannot do special. Your turn is skipped!
+The monster's defense doubles!
+
+HEALTH: 270 MONSTER HEALTH: 25
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do -5 damage!
+Monster does 10 damage!
+
+HEALTH: 260 MONSTER HEALTH: 30
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 10 damage!
+The monster's defense doubles!
+
+HEALTH: 260 MONSTER HEALTH: 20
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do -5 damage!
+Monster does 10 damage!
+
+HEALTH: 250 MONSTER HEALTH: 25
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 3
+
+OMEGA SLASH!
+You do 110 damage!
+The monster died!
+ _ _ _ _ _ _
+|_1_|_2_|_3_|
+|_4_|_5_|_6_|
+|_7_|_8_|_9_|
+Current room: 2
+Please enter a valid room number (1 - 9): 3
+
+Warning: Monster!
+
+HEALTH: 420 MONSTER HEALTH: 100
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 60 damage!
+Monster does 1 damage!
+
+HEALTH: 419 MONSTER HEALTH: 40
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 60 damage!
+The monster died!
+ _ _ _ _ _ _
+|_1_|_2_|_3_|
+|_4_|_5_|_6_|
+|_7_|_8_|_9_|
+Current room: 3
+Please enter a valid room number (1 - 9): 6
+
+Warning: Monster!
+
+HEALTH: 540 MONSTER HEALTH: 100
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 110 damage!
+The monster died!
+ _ _ _ _ _ _
+|_1_|_2_|_3_|
+|_4_|_5_|_6_|
+|_7_|_8_|_9_|
+Current room: 6
+Please enter a valid room number (1 - 9): 9
+
+Boss Warning: Charybdis Appeared!
+
+HEALTH: 660 MONSTER HEALTH: 2500
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 130 damage!
+Charybdis does 60 damage!
+
+HEALTH: 600 MONSTER HEALTH: 2370
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 130 damage!
+Charybdis does 60 damage!
+
+HEALTH: 540 MONSTER HEALTH: 2240
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 3
+
+OMEGA SLASH!
+You do 305 damage!
+The boss's defense doubles!
+
+HEALTH: 540 MONSTER HEALTH: 1935
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 2
+
+Your defense doubles!
+Charybdis does 1 damage!
+
+HEALTH: 539 MONSTER HEALTH: 1935
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 130 damage!
+Charybdis does 60 damage!
+
+HEALTH: 479 MONSTER HEALTH: 1805
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 130 damage!
+Charybdis does 60 damage!
+
+HEALTH: 419 MONSTER HEALTH: 1675
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 2
+
+Your defense doubles!
+The boss's defense doubles!
+
+HEALTH: 419 MONSTER HEALTH: 1675
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 2
+
+Your defense doubles!
+Charybdis unleashes COCYTUS ZERO!
+Charybdis does 270 damage!
+
+HEALTH: 149 MONSTER HEALTH: 1675
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 4
+
+You healed yourself by 270 health!
+The boss's defense doubles!
+
+HEALTH: 419 MONSTER HEALTH: 1675
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 3
+
+OMEGA SLASH!
+You do 1135 damage!
+The boss's defense doubles!
+
+HEALTH: 419 MONSTER HEALTH: 540
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 85 damage!
+Charybdis does 60 damage!
+
+HEALTH: 359 MONSTER HEALTH: 455
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 1
+
+You do 130 damage!
+Charybdis does 60 damage!
+
+HEALTH: 299 MONSTER HEALTH: 325
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 4
+
+You healed yourself by 270 health!
+Charybdis does 60 damage!
+
+HEALTH: 509 MONSTER HEALTH: 325
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 4
+
+You healed yourself by 270 health!
+Charybdis does 60 damage!
+
+HEALTH: 600 MONSTER HEALTH: 325
+
+1. Attack
+2. Defend
+3. Special Attack
+4. Heal
+Enter action: 3
+
+OMEGA SLASH!
+You do 830 damage!
+Charybdis died!
+
+You win!
